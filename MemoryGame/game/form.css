@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  height: 100vh;
+    text-align: center;
+    font-family: "Sofia", sans-serif;    
+    font-size: 320%;
+    color:#fff;
+      }
+
+  button, input, #myDropdown, #DropdownCardType{
+    background-color: rgb(238, 180, 74);
+    width: 25vh;
+    height: 5vh;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: large;
+    border-style: solid;
+    border-radius: 25px;
+    }
+
+    button{
+    background-color: rgb(250, 221, 167);
+    width: 50vh;
+    height: 7vh;
+    border-radius: 50px;
+    margin: 15%;
+    }
+

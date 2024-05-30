@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="game/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+
+</head>
+<body id="gameForm">
+    <h1 class="font-effect-fire">Memory Game </h1>
+    <form id="form">
+        <input type="text" id="name" placeholder="Your name"/>    
+        <br>
+        <select id="myDropdown" class="start">
+            <option class="option" value="" disabled selected >Select a level</option>
+             <option class="option" value="20">3</option>
+             <option class="option" value="15">2</option>
+             <option class="option" value="10">1</option>
+         </select>
+         
+         <select id="DropdownCardType" class="start">
+            <option class="option" value="" disabled selected >Image</option>
+             <option class="option" value="cars">car</option>
+             <option class="option" value="chairs">chair</option>
+             <option class="option" value="plants">plants</option>
+         </select>
+         <br>
+         <button type="submit" id="start_game"> start</button>
+         </form>
+         <a href="game/game.html"></a> 
+    <script src="game/js.js"></script>
+</body>
+</html>

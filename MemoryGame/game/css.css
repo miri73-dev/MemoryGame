@@ -1,0 +1,171 @@
+body{
+  background-color: black;
+  height: 100vh;
+    text-align: center;
+    font-family: "Sofia", sans-serif;    
+    font-size: 120%;
+    color:#fff;
+      }
+
+h2{
+    font-size: 250%; 
+    margin-bottom: 0; /* Removes the bottom margin of H1 */
+    padding-bottom: 0;
+  }
+
+h3{
+    margin-top: 0; /* Removes the top margin of H2 */
+    padding-top: 0;
+
+  }
+
+#myDropdown,button{
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.card{
+   width:10%;
+   background-color: #fff;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin: 1%;
+   border-style: solid;
+   border-color: darkorange;
+   border-radius: 25px;
+ 
+}
+
+#mark {
+  background-color: darkorange;
+  border-style: solid;
+  border-radius: 25px;
+  color: #fff;
+  bottom: -30px;
+  }
+
+  #mark,p{
+    padding: 10px;
+    width: 50%;
+    height: 2%;
+    position: absolute;
+     left: 50%;
+     bottom: 40vh;
+    transform: translate(-50%, 800%);
+    
+}
+#end{
+  top: -5vh;
+ font-size: 15vh; 
+ }
+ 
+ #end2{
+   bottom: 35vh;
+   color: rgb(252, 169, 46); 
+  }
+
+
+
+@media (max-width: 1500px) {
+  .card{
+    width: 12%;
+  }
+
+  #mark,p{
+    padding: 10px;
+    /* width: 30%; */
+    height: 1%;
+    bottom: 40%;
+    font-size: 75%;
+  }
+
+  #end{
+    top: -5vh;
+    font-size: 10vh;    }
+
+    #end2{
+      bottom: 40vh;
+  }
+
+  #mark i {
+    width: 25px;
+}
+
+}
+
+@media (max-width: 930px) {
+  #end{
+    top: -5vh;
+    font-size: 5vh;    }
+
+    #mark,p{
+      padding: 10px;
+      /* width: 30%; */
+      height: 1%;
+      /* bottom: 30%; */
+    }
+
+    #mark i {
+      width: 20px;
+  }
+}
+
+.card:after{
+   content: '';
+   display: block;
+   padding-top: 100%;
+   background: #fff center no-repeat;
+   background-size: contain;
+   border-radius: 20%;
+}
+
+.card.clear2:after{
+  opacity: 0.5;
+}
+
+/* פתיחת כרטיס */
+ .card.clear1:after{
+  opacity: 0
+}
+
+ /* כרטיס סגור */
+ .card.clear0:after{
+  opacity: 1
+}
+.start.none{
+  display: none;
+}
+.start.flex{
+  display: flex;
+}
+
+i{width: 35px;}
+
+#board{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+  
+}
+
+.a{
+  width:80% ;
+}
+
+.b{
+  width:75% ;
+}
+
+.c{
+  width:60% ;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 100%;
+}
